@@ -41,4 +41,6 @@ if __name__ == "__main__":
     for thread in thread_list:
         thread.join()
 
-   
+    # Розрахунок середньої кількості кроків
+    average_steps = total_steps / N
+    print(f"Середня кількість кроків для чисел від 1 до {N}: {average_steps}")
